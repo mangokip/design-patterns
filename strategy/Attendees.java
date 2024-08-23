@@ -2,6 +2,8 @@
  * Attendees class that is comprised of attributes specific to people present on attendee list
  * Functionality present to create attendees, make additions if no duplicates, and getters for title, behavior,
  * and lists.
+ *
+ * @author Bryce Klein
  */
 package strategy;
 
