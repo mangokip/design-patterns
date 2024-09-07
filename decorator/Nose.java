@@ -1,14 +1,13 @@
+
 /**
- * This is a class that extends CharacterDecorator to create a Mouth decoration.
+ * This is a class that extends CharacterDecorator to create a Nose decoration.
  *
  * @author Bryce Klein
  */
-package decorator;
 
-import decorator.Character;
 import java.util.ArrayList;
 
-public class Mouth extends CharacterDecorator {
+public class Nose extends CharacterDecorator {
 
     /**
      * Basic constructor that supers the character, creates an ArrayList out of
@@ -16,10 +15,10 @@ public class Mouth extends CharacterDecorator {
      *
      * @param character - the character who will receive this integration
      */
-    public Mouth(Character character) {
+    public Nose(Character character) {
         super(character);
-        ArrayList<String> mouthLines = FileReader.getLines("decorator\\mouth.txt");
-        integrateDecor(mouthLines);
+        ArrayList<String> noseLines = FileReader.getLines("nose.txt");
+        integrateDecor(noseLines);
     }
 
 }

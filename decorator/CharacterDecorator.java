@@ -5,9 +5,8 @@
  *
  * @author Bryce Klein
  */
-package decorator;
 
-import decorator.Character;
+
 import java.util.ArrayList;
 
 public abstract class CharacterDecorator extends Character {

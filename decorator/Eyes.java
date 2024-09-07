@@ -1,14 +1,13 @@
+
 /**
- * This is a class that extends CharacterDecorator to create a Hat decoration.
+ * This is a class that extends CharacterDecorator to create an Eye decoration.
  *
  * @author Bryce Klein
  */
-package decorator;
 
-import decorator.Character;
 import java.util.ArrayList;
 
-public class Hat extends CharacterDecorator {
+public class Eyes extends CharacterDecorator {
 
     /**
      * Basic constructor that supers the character, creates an ArrayList out of
@@ -16,11 +15,10 @@ public class Hat extends CharacterDecorator {
      *
      * @param character - the character who will receive this integration
      */
-    public Hat(Character character) {
+    public Eyes(Character character) {
         super(character);
-        ArrayList<String> hatLines = FileReader.getLines("decorator\\hat.txt");
-        integrateDecor(hatLines);
-
+        ArrayList<String> eyesLines = FileReader.getLines("eyes.txt");
+        integrateDecor(eyesLines);
     }
 
 }

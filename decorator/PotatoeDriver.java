@@ -1,6 +1,5 @@
-package decorator;
 
-import decorator.Character;
+
 import java.util.Scanner;
 
 public class PotatoeDriver {
