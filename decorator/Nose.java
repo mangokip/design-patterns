@@ -4,7 +4,6 @@
  *
  * @author Bryce Klein
  */
-
 import java.util.ArrayList;
 
 public class Nose extends CharacterDecorator {
@@ -17,7 +16,7 @@ public class Nose extends CharacterDecorator {
      */
     public Nose(Character character) {
         super(character);
-        ArrayList<String> noseLines = FileReader.getLines("nose.txt");
+        ArrayList<String> noseLines = FileReader.getLines("txt\\nose.txt");
         integrateDecor(noseLines);
     }
 

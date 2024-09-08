@@ -4,7 +4,6 @@
  *
  * @author Bryce Klein
  */
-
 import java.util.ArrayList;
 
 public class Mouth extends CharacterDecorator {
@@ -17,7 +16,7 @@ public class Mouth extends CharacterDecorator {
      */
     public Mouth(Character character) {
         super(character);
-        ArrayList<String> mouthLines = FileReader.getLines("mouth.txt");
+        ArrayList<String> mouthLines = FileReader.getLines("txt\\mouth.txt");
         integrateDecor(mouthLines);
     }
 

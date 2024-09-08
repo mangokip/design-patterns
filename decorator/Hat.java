@@ -4,7 +4,6 @@
  *
  * @author Bryce Klein
  */
-
 import java.util.ArrayList;
 
 public class Hat extends CharacterDecorator {
@@ -17,7 +16,7 @@ public class Hat extends CharacterDecorator {
      */
     public Hat(Character character) {
         super(character);
-        ArrayList<String> hatLines = FileReader.getLines("hat.txt");
+        ArrayList<String> hatLines = FileReader.getLines("txt\\hat.txt");
         integrateDecor(hatLines);
 
     }

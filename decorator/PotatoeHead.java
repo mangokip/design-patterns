@@ -4,7 +4,6 @@
  *
  * @author Bryce Klein
  */
-
 public class PotatoeHead extends Character {
 
     /**
@@ -14,7 +13,7 @@ public class PotatoeHead extends Character {
      * @param name - the name of the PotatoeHead
      */
     public PotatoeHead(String name) {
-        super(FileReader.getLines("potatoe-head.txt"), name);
+        super(FileReader.getLines("txt\\potatoe-head.txt"), name);
 
     }
 }
