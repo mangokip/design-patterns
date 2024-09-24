@@ -1,3 +1,4 @@
+package state;
 
 /**
  * The Hard State for the Arithemetic game, including +,-,*,/ and numbers 1-50

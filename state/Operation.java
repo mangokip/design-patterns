@@ -1,3 +1,5 @@
+package state;
+
 public enum Operation {
     PLUS("+"),
     MINUS("-"),

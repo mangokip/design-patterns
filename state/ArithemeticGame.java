@@ -1,7 +1,8 @@
+package state;
 
 /**
- * This class is the base for the Arithmetic Game overall and is utilized in the driver to take advantage of multiple states that scale
- * with the user's score.
+ * This class is the base for the Arithmetic Game overall and is utilized in the
+ * driver to take advantage of multiple states that scale with the user's score.
  *
  * @author Bryce Klein
  */

@@ -1,3 +1,4 @@
+package state;
 
 /**
  * The Easy State for the Arithemetic game, including + and - and numbers 1-10
