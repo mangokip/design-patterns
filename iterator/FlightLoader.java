@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class FlightLoader {
 
     //relative path to the file, based on the directory you currently have open
-    private static final String FILE_NAME = "iterator/flights.txt";
+    private static final String FILE_NAME = "flights.txt";
 
     /**
      * Returns a list of all Flights from the text file
